@@ -1,0 +1,83 @@
+"MainLang" = "DE";
+
+//Уведомления
+"ErrorTitle" = "Fehler";
+"AttentionTitle" = "Achtung";
+"EmptyFieldError" = "Nicht alle Felder sind ausgefüllt. Fülle alle Lücken und versuch es noch einmal.";
+"WrongEmailError" = "Die eingegebene E-Mail ist nicht korrekt. Gebe eine andere E-Mail an und versuch es nochmal";
+"ShortPassError" = "Dein Passwort ist zu kurz. Wähle ein Passwort, das nicht kürzer als 6 Symbole ist.";
+"PasswordsDisequalError" = "Die Passwörter stimmen nicht überein.";
+"RegisterServerError" = "Die Registrierung hat nicht geklappt. Vielleicht wurde diese E-Mail bereits bei einer anderen Login-Möglichkeit benutzt. Versuche eine andere Möglichkeit, um dich einzuloggen oder stelle dein Passwort wiederher.";
+"EmptyEmailError" = "Um das Passwort wiederherzustellen, musst du deine E-Mail eingeben.";
+"RememberPasswordError" = "Der Nutzer mit der angegebenen E-Mail existiert nicht. Überprüfe deine Angaben und versuch es nochmal.";
+"PasswordSent" = "Die Anfrage zur Wiederherstellung des Passworts wurde auf die angegebene E-Mail geschickt.";
+"NoUserError" = "Der Nutzer mit angegebenen Daten existiert nicht. Überprüfe alle Felder und versuch es nochmal.";
+"NoMailError" = "Die E-Mail konnte nicht gesendet werden. Versuch es nochmal später.";
+"NoTranslationsError" = "Um das Wörterbuch herunterzuladen, brauchst du eine Internetverbindung.";
+"NoPurchasesError" = "Um den Shop zu laden, brauchst du mindestens einmal eine Internetverbindung.";
+"NoStksError" = " Um die Studienkollegs und Kurse zu laden, brauchst du mindestens einmal eine Internetverbindung..";
+"ScreenshotCopyrights" = "Alle Materialien in dieser App sind urheberrechtlich geschützt.";
+"RemoveString" = "Löschen";
+"NoteString" = "Anmerkung";
+"GoogleErrorMessage" = "Das Einloggen mit Google-Account hat nicht geklappt. Vielleicht wird diese E-Mail bereits genutzt. Versuche eine andere Möglichkeit zum Einloggen.";
+"FBErrorMessage" = "Das Einloggen mit Facebook-Account hat nicht geklappt. Vielleicht wird diese E-Mail bereits genutzt. Versuche eine andere Möglichkeit zum Einloggen.";
+"CartErrorMessage" = "Es hat nicht geklappt, deine Auswahl aus dem Shop zu speichern.";
+"NoPermissionsWarning" = "Der Zugang zu diesem Thema wurde nicht gekauft. Du kannst den Zugang für 1 Jahr in unserem Shop bekommen.";
+"ToShopBtn" = "Zum Shop";
+"WebViewError" = "Die gewünschte Seite konnte nicht geladen werden. Bitte prüfe deine Internetverbindung und versuch es noch einmal.";
+"VerificationNotification" = "Auf deine E-Mail wurden Daten für die Account-Verifizierung verschickt.";
+"NiceVariantTitle" = "Richtige Antwort";
+"AccountLinkSuccess" = "Deine Accounts sind erfolgreich gebunden. Jetzt kannst du dich auf die ausgewählte Weise in der App einloggen.";
+"AccountLinkError" = "Die Accounts wurden leider nicht gebunden. Vielleicht sind die Accounts bereits gebunden, die angegebene E-Mail weicht ab oder es ist ein anderer Fehler aufgetreten";
+"AppleAuthError" = "Für eine Authentifizierung mit Apple brauchst du mindestens die IOS 13-Version";
+"AppleErrorMessage" = "Das Einloggen mit Apple-Account hat nicht geklappt. Vielleicht wird diese E-Mail bereits genutzt. Versuche eine andere Möglichkeit zum Einloggen.";
+"IAPErrorMessage" = "При попытке покупки в Аппсторе произошла ошибка. Попробуйте позже.";
+
+//Экран теста
+"EndTestBtn" = "Test beenden";
+"ResultsTitle" = "Testergebnis";
+"ShowErrorsBtn" = "Fehler zeigen";
+"TellFriendsBtn" = "Mit Freunden teilen";
+"TryAgainBtn" = "Nochmal versuchen";
+"TestTextPlaceholder" = "Gib einen Text ein oder kopiere einen Text deiner Wahl (min. 200 Symbole).";
+"NotEnoughtSymbols" = "Der Text für den Test soll mindestens 200 Symbole haben.";
+
+//Выбор магазина
+"SelectShopMessage" = "Wähle einen Shop aus";
+"AppStoreShop" = "Kaufen im AppStore";
+"SiteShop" = "Auf der Web-Seite kaufen";
+
+//Тексты дополнения
+"TotalFullText" = "Aufgabenanzahl insgesamt";
+"FromExamFullText" = "Davon von früheren Aufnahmetests";
+"NoDataCountText" = "Es gibt keine Daten über die Anzahl von Aufgaben";
+"TotalShortShopText" = "Insgesamt";
+"ExShortShopText" = "Prüf.";
+"Tip1Text" = "Um die Antwort zu sehen, swipe nach links.";
+"Tip2Text" = "Um die Aufgabe als gelöst zu markieren, tippe auf sie 2-mal.";
+"Tip3Text" = "Löst du Aufgaben zu einem bestimmten Thema? Dann setze es zu deinem Ziel, tippe dafür aufs Symbol \"Ziele\". Somit kannst du leicht zu der zuletzt gelösten Aufgabe im Abschnitt \"Ziele\" zurückkehren.";
+"TipTitleText" = "Tipp";
+"TipsSkipText" = "Tipps schließen";
+"TipNextText" = "Nächster Tipp";
+"SelectTextBtnTitle" = "Text auswählen";
+"CancelBtnText" = "Zurück";
+"OkBtnText" = "ОК";
+"SelectTextsTitle" = "Textauswahl nach dem Schwierigkeitsgrad";
+"CantLoadTextsError" = "Die Texte konnten nicht geladen werden. Prüfe deine Internetverbindung und versuch´s noch einmal.";
+
+//EvilCode
+"Rate_Title" = "Deine Meinung ist sehr wichtig für uns. Deswegen bitten wir dich, unsere App durch Antwort auf eine kurze Frage zu bewerten.";
+"Rate_Message" = "Gefällt dir unsere App? ";
+"Rate_Yes" = "Ja";
+"Rate_No" = "Nein";
+"Rate_Later" = "Später bewerten";
+ 
+"Rate_Mail_Subject" = "Ich habe eine negative Erfahrung mit der App";
+"Rate_Mail_Body" = "<p>Guten Tag, ich hatte eine negative Erfahrung mit der App, und zwar </p>";
+ 
+"IAP_Restore" = "Wiederherstellen"; 
+"IAP_NothingRestore" = "Es gibt kein gültiges Abo" ;
+
+"Copyright_Title" = "Wenn du weiterhin mehr als {NA} Versuch(e) machst, ein Photo- oder Video-Screenshot zu machen, wird dein Zugang zu unseren Materialien gelöscht.";
+"Copyright_Message" = "Wegen Probleme mit manchen Kunden, müssten wir leider die Screenshots-Aufnahme verbieten. Alle unseren Aufgaben sind urheberrechtlich geschützt.";
+"Copyright_Abuze" = "Feature limited due to privacy policy violation";

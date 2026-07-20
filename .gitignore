@@ -1,0 +1,14 @@
+# macOS
+.DS_Store
+
+# Xcode
+xcuserdata/
+*.xcuserstate
+DerivedData/
+build/
+
+# CocoaPods
+Pods/
+
+# Apple private keys
+AuthKey_*.p8

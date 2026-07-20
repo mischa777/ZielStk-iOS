@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="17192" systemVersion="19H2" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Prices" representedClassName="Prices" syncable="YES">
+        <attribute name="biologie" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="deutsch" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="document_key" optional="YES" attributeType="String"/>
+        <attribute name="englisch" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="geisteswissenschaft" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="in_der_entwicklung" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="is_discounts" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="mathematik" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="naturwissenschaften" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="physik" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="sprachwissenschaft" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="wirtschaftslehre" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <uniquenessConstraints>
+            <uniquenessConstraint>
+                <constraint value="document_key"/>
+            </uniquenessConstraint>
+        </uniquenessConstraints>
+    </entity>
+    <entity name="Stks" representedClassName="Stks" syncable="YES">
+        <attribute name="courses" optional="YES" attributeType="String"/>
+        <attribute name="deStar" optional="YES" attributeType="String"/>
+        <attribute name="deText" optional="YES" attributeType="String"/>
+        <attribute name="logo" optional="YES" attributeType="String"/>
+        <attribute name="picture" optional="YES" attributeType="String"/>
+        <attribute name="ruStar" optional="YES" attributeType="String"/>
+        <attribute name="ruText" optional="YES" attributeType="String"/>
+        <attribute name="stk_name" optional="YES" attributeType="String"/>
+        <uniquenessConstraints>
+            <uniquenessConstraint>
+                <constraint value="stk_name"/>
+            </uniquenessConstraint>
+        </uniquenessConstraints>
+    </entity>
+    <entity name="StructData" representedClassName="StructData" syncable="YES">
+        <attribute name="exam" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="total" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <uniquenessConstraints>
+            <uniquenessConstraint>
+                <constraint value="name"/>
+            </uniquenessConstraint>
+        </uniquenessConstraints>
+    </entity>
+    <entity name="Targets" representedClassName="Targets" syncable="YES">
+        <attribute name="stk_data" attributeType="String" defaultValueString=""/>
+        <attribute name="target_index" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="test_data" attributeType="String" defaultValueString=""/>
+        <attribute name="uid" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="Tests" representedClassName="Tests" syncable="YES">
+        <attribute name="description_bd" optional="YES" attributeType="String"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="tasks" optional="YES" attributeType="String"/>
+        <uniquenessConstraints>
+            <uniquenessConstraint>
+                <constraint value="name"/>
+            </uniquenessConstraint>
+        </uniquenessConstraints>
+    </entity>
+    <entity name="TextsData" representedClassName="TextsData" syncable="YES">
+        <attribute name="difficulty" optional="YES" attributeType="String"/>
+        <attribute name="text" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+        <uniquenessConstraints>
+            <uniquenessConstraint>
+                <constraint value="title"/>
+            </uniquenessConstraint>
+        </uniquenessConstraints>
+    </entity>
+    <entity name="Translations" representedClassName="Translations" syncable="YES">
+        <attribute name="parameters" optional="YES" attributeType="String" defaultValueString=""/>
+        <attribute name="translation" optional="YES" attributeType="String" defaultValueString=""/>
+        <attribute name="word" attributeType="String"/>
+        <uniquenessConstraints>
+            <uniquenessConstraint>
+                <constraint value="word"/>
+            </uniquenessConstraint>
+        </uniquenessConstraints>
+    </entity>
+    <entity name="UserData" representedClassName="UserData" syncable="YES">
+        <attribute name="is_verified" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="payment_token" optional="YES" attributeType="String"/>
+        <attribute name="uid" optional="YES" attributeType="String"/>
+        <uniquenessConstraints>
+            <uniquenessConstraint>
+                <constraint value="uid"/>
+            </uniquenessConstraint>
+        </uniquenessConstraints>
+    </entity>
+    <entity name="UserSelections" representedClassName="UserSelections" syncable="YES">
+        <attribute name="selections_string" optional="YES" attributeType="String"/>
+        <attribute name="uid" optional="YES" attributeType="String"/>
+        <uniquenessConstraints>
+            <uniquenessConstraint>
+                <constraint value="uid"/>
+            </uniquenessConstraint>
+        </uniquenessConstraints>
+    </entity>
+    <elements>
+        <element name="Prices" positionX="-54" positionY="18" width="128" height="223"/>
+        <element name="Stks" positionX="-54" positionY="99" width="128" height="163"/>
+        <element name="StructData" positionX="-54" positionY="108" width="128" height="88"/>
+        <element name="Targets" positionX="-54" positionY="108" width="128" height="103"/>
+        <element name="Tests" positionX="-54" positionY="108" width="128" height="88"/>
+        <element name="Translations" positionX="-54" positionY="-9" width="128" height="88"/>
+        <element name="UserData" positionX="-54" positionY="99" width="128" height="88"/>
+        <element name="UserSelections" positionX="-54" positionY="108" width="128" height="73"/>
+        <element name="TextsData" positionX="-54" positionY="108" width="128" height="88"/>
+    </elements>
+</model>

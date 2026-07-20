@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>96326004703-o2hefr4pv8v9csnnks1mnmn4nd3num2u.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.96326004703-o2hefr4pv8v9csnnks1mnmn4nd3num2u</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>96326004703-ti1l4ti65qvnk88hd9i66fq6vspvh1bq.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCEbEEMAhIJvDA98M7_Zx38rkQA7X3nYKQ</string>
+	<key>GCM_SENDER_ID</key>
+	<string>96326004703</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>de.zielstudienkolleg</string>
+	<key>PROJECT_ID</key>
+	<string>ziel-studienkolleg</string>
+	<key>STORAGE_BUCKET</key>
+	<string>ziel-studienkolleg.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<true/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:96326004703:ios:30ad9876e8582185e4de6a</string>
+	<key>DATABASE_URL</key>
+	<string>https://ziel-studienkolleg.firebaseio.com</string>
+</dict>
+</plist>

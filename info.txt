@@ -1,0 +1,45 @@
+{
+"StudienkollegsVC": {
+		"CollegTestsVC": {
+			"DeutchCompilerVC": {},
+			"MathTestParentVC": {}
+		},
+		"TargetsVC": {
+		
+		}
+	}
+}
+
+
+
+IAP => bb9e75cd90e0443abf078f66b72cc50d {
+	return Set([
+	"de.zielstudienkolleg.ableitungen",
+	"de.zielstudienkolleg.c_test_generator",
+	"de.zielstudienkolleg.fakultaet",
+	"de.zielstudienkolleg.folgen_und_reihen",
+	"de.zielstudienkolleg.funktionsgraphen",
+	"de.zielstudienkolleg.geometrie",
+	"de.zielstudienkolleg.gleichungen",
+	"de.zielstudienkolleg.gleichungen_auflosen_und_umstellen",
+	"de.zielstudienkolleg.gleichungssysteme",
+	"de.zielstudienkolleg.gleichungssysteme.textaufgaben",
+	"de.zielstudienkolleg.grammatik",
+	"de.zielstudienkolleg.grenzwerte",
+	"de.zielstudienkolleg.groessenordnung",
+	"de.zielstudienkolleg.integrale",
+	"de.zielstudienkolleg.kettenbrueche",
+	"de.zielstudienkolleg.matrizen",
+	"de.zielstudienkolleg.mengen",
+	"de.zielstudienkolleg.prozentaufgaben",
+	"de.zielstudienkolleg.quadratzahlen",
+	"de.zielstudienkolleg.rechnen",
+	"de.zielstudienkolleg.ungewoehnliche_aufgaben",
+	"de.zielstudienkolleg.ungleichungen",
+	"de.zielstudienkolleg.vektoren",
+	"de.zielstudienkolleg.vereinfachung_von_termen_mit_variablen",
+	"de.zielstudienkolleg.wahrscheinlichkeit",
+	"de.zielstudienkolleg.wortschatz",
+	"de.zielstudienkolleg.zahlensysteme"
+	])
+}

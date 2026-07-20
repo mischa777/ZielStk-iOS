@@ -1,0 +1,351 @@
+
+/* Class = "UILabel"; text = "Übersetzung"; ObjectID = "055-Hw-rVL"; */
+"055-Hw-rVL.text" = "Überstzung";
+
+/* Class = "UIButton"; normalTitle = "Info"; ObjectID = "09G-iV-EBW"; */
+"09G-iV-EBW.normalTitle" = "Info";
+
+/* Class = "UILabel"; text = "Shop"; ObjectID = "0D9-ja-uwX"; */
+"0D9-ja-uwX.text" = "Shop";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "0LK-4C-QSy"; */
+"0LK-4C-QSy.text" = "Label";
+
+/* Class = "UILabel"; text = "Label Label"; ObjectID = "0lh-7x-0aS"; */
+"0lh-7x-0aS.text" = "Label Label";
+
+/* Class = "UILabel"; text = "Mathematik"; ObjectID = "21B-zV-z7j"; */
+"21B-zV-z7j.text" = "Mathematik";
+
+/* Class = "UITextField"; placeholder = "Passwort wiederholen"; ObjectID = "2Xb-cZ-1nr"; */
+"2Xb-cZ-1nr.placeholder" = "Passwort wiederholen";
+
+/* Class = "UIButton"; normalTitle = "ОК"; ObjectID = "3So-wA-5MR"; */
+"3So-wA-5MR.normalTitle" = "ОК";
+
+/* Class = "UITextField"; placeholder = "Gib dein Passwort ein…"; ObjectID = "49E-eq-vGo"; */
+"49E-eq-vGo.placeholder" = "Gib dein Passwort ein...";
+
+/* Class = "UIButton"; normalTitle = "Meine Käufe aktualisieren"; ObjectID = "4cW-lH-9XT"; */
+"4cW-lH-9XT.normalTitle" = "Meine Käufe aktualisieren";
+
+/* Class = "UITextField"; placeholder = "Passwort"; ObjectID = "62L-D0-lgG"; */
+"62L-D0-lgG.placeholder" = "Passwort";
+
+/* Class = "UILabel"; text = "Gib die Übersetzung des Wortes ein:"; ObjectID = "6Io-7j-E7Q"; */
+"6Io-7j-E7Q.text" = " Gib die Übersetzung des Wortes ein:";
+
+/* Class = "UILabel"; text = "Hier werden deine Ziele angegeben, sofort wenn du sie hinzufügst ;)"; ObjectID = "6yf-t4-QFI"; */
+"6yf-t4-QFI.text" = "Hier werden deine Ziele angegeben, sofort wenn du sie hinzufügst ;)";
+
+/* Class = "UIButton"; normalTitle = "Zur vorherigen Seite"; ObjectID = "780-SM-MFE"; */
+"780-SM-MFE.normalTitle" = " Zur vorherigen Seite ";
+
+/* Class = "UIButton"; normalTitle = "Test auswerten"; ObjectID = "7W2-cT-dAx"; */
+"7W2-cT-dAx.normalTitle" = "Test auswerten";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "7Zb-Aw-i4F"; */
+"7Zb-Aw-i4F.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "3"; ObjectID = "7dc-oc-HEI"; */
+"7dc-oc-HEI.normalTitle" = "3";
+
+/* Class = "UIButton"; normalTitle = "Test-Typ"; ObjectID = "7np-2k-RRT"; */
+"7np-2k-RRT.normalTitle" = "Test-Typ";
+
+/* Class = "UILabel"; text = "Для продолжения обучения необходимо выбрать курсы."; ObjectID = "7zf-Zd-ZJU"; */
+"7zf-Zd-ZJU.text" = "Hier werden die für dich relevanten Lerninhalte angeboten.\n\nDu kannst Zugang zu diesen Materialien in der App für einen Zeitraum von 1 Jahr kaufen.\n\nWähle bitte zuerst Studienkollegs und Kurse aus, die dich interessieren!";
+
+/* Class = "UIButton"; normalTitle = "PROBLEM MELDEN"; ObjectID = "8Fe-Do-7PO"; */
+"8Fe-Do-7PO.normalTitle" = "PROBLEM MELDEN";
+
+/* Class = "UIButton"; normalTitle = "8"; ObjectID = "9bC-aB-rIR"; */
+"9bC-aB-rIR.normalTitle" = "8";
+
+/* Class = "UILabel"; text = "0,0"; ObjectID = "9pb-o9-Q3e"; */
+"9pb-o9-Q3e.text" = "0,0";
+
+/* Class = "UILabel"; text = "Einloggen"; ObjectID = "9qQ-r3-dkl"; */
+"9qQ-r3-dkl.text" = "Einloggen";
+
+/* Class = "UIButton"; normalTitle = "ОК"; ObjectID = "BGf-gQ-seC"; */
+"BGf-gQ-seC.normalTitle" = "ОК";
+
+/* Class = "UIButton"; normalTitle = "Texte von Partner der Zukunft"; ObjectID = "Bpa-gi-t38"; */
+"Bpa-gi-t38.normalTitle" = "Texte von Partner der Zukunft";
+
+/* Class = "UILabel"; text = "Aufgabe"; ObjectID = "CE3-dn-dNH"; */
+"CE3-dn-dNH.text" = "Aufgabe";
+
+/* Class = "UIButton"; normalTitle = "Materialien"; ObjectID = "D2H-cJ-KFD"; */
+"D2H-cJ-KFD.normalTitle" = "Materialien";
+
+/* Class = "UIButton"; normalTitle = "2"; ObjectID = "D58-ew-Bql"; */
+"D58-ew-Bql.normalTitle" = "2";
+
+/* Class = "UIButton"; normalTitle = "4"; ObjectID = "DsU-ja-wWT"; */
+"DsU-ja-wWT.normalTitle" = "4";
+
+/* Class = "UIButton"; normalTitle = "ZU DEN KURSEN"; ObjectID = "EcP-6A-KIg"; */
+"EcP-6A-KIg.normalTitle" = "ZU DEN AUFGABEN";
+
+/* Class = "UILabel"; text = "Cloze-Test"; ObjectID = "Fdm-ex-pVm"; */
+"Fdm-ex-pVm.text" = "Cloze-Test";
+
+/* Class = "UIButton"; normalTitle = "ABBRECHEN"; ObjectID = "G84-zq-FlC"; */
+"G84-zq-FlC.normalTitle" = "ABBRECHEN";
+
+/* Class = "UILabel"; text = "Antwort"; ObjectID = "HHJ-A1-A49"; */
+"HHJ-A1-A49.text" = "Antwort";
+
+/* Class = "UIButton"; normalTitle = "ABBRECHEN"; ObjectID = "Hno-h1-z6r"; */
+"Hno-h1-z6r.normalTitle" = "ABBRECHEN";
+
+/* Class = "UIButton"; normalTitle = "Datenschutzerklärung"; ObjectID = "I8d-vF-J4A"; */
+"I8d-vF-J4A.normalTitle" = "Datenschutzerklärung";
+
+/* Class = "UIButton"; normalTitle = "EINLOGGEN"; ObjectID = "IkE-Tq-uUk"; */
+"IkE-Tq-uUk.normalTitle" = "EINLOGGEN";
+
+/* Class = "UILabel"; text = "Account binden"; ObjectID = "J3i-k3-vCY"; */
+"J3i-k3-vCY.text" = "Account binden";
+
+/* Class = "UIButton"; normalTitle = "REGISTRIEREN"; ObjectID = "KHN-1X-QXX"; */
+"KHN-1X-QXX.normalTitle" = "REGISTRIEREN";
+
+/* Class = "UITextField"; placeholder = "Übersetzung eingeben…"; ObjectID = "Kfs-4k-PNc"; */
+"Kfs-4k-PNc.placeholder" = "Übersetzung eingeben...";
+
+/* Class = "UIButton"; normalTitle = "Der Reihe nach"; ObjectID = "LQh-kO-oid"; */
+"LQh-kO-oid.normalTitle" = "Der Reihe nach";
+
+/* Class = "UILabel"; text = "Wort"; ObjectID = "LwY-HY-0YA"; */
+"LwY-HY-0YA.text" = "Wort";
+
+/* Class = "UITextField"; placeholder = "Deine E-Mail"; ObjectID = "Mzh-rh-HOo"; */
+"Mzh-rh-HOo.placeholder" = "Deine E-Mail";
+
+/* Class = "UIButton"; normalTitle = "Nach ungelösten"; ObjectID = "N3f-ld-ouT"; */
+"N3f-ld-ouT.normalTitle" = "Nach ungelösten";
+
+/* Class = "UIButton"; normalTitle = "Name des Studienkollegs"; ObjectID = "N6a-6U-voT"; */
+"N6a-6U-voT.normalTitle" = "Name des Studienkollegs";
+
+/* Class = "UIButton"; normalTitle = "AAAAA"; ObjectID = "NOo-67-8rx"; */
+"NOo-67-8rx.normalTitle" = "Nutzungsbedingungen";
+
+/* Class = "UILabel"; text = "Auswahl von Studienkollegs und Kursen"; ObjectID = "Nex-aW-bgi"; */
+"Nex-aW-bgi.text" = "Auswahl von Studienkollegs und Kursen";
+
+/* Class = "UILabel"; text = "Oder einloggen mit"; ObjectID = "OUH-wF-aNH"; */
+"OUH-wF-aNH.text" = "Oder einloggen mit";
+
+/* Class = "UIButton"; normalTitle = "ВЫБРАТЬ КУРСЫ"; ObjectID = "OXv-KR-O6R"; */
+"OXv-KR-O6R.normalTitle" = "KURSE AUSWÄHLEN";
+
+/* Class = "UILabel"; text = "Bei der weiteren Benutzung der App stimmst Du zu: unserer"; ObjectID = "QeN-v4-mvu"; */
+"QeN-v4-mvu.text" = "Bei der weiteren Benutzung der App stimmst Du zu: unserer";
+
+/* Class = "UIButton"; normalTitle = "KURSE AUSWÄHLEN"; ObjectID = "Qeh-fd-d0e"; */
+"Qeh-fd-d0e.normalTitle" = "KURSE AUSWÄHLEN";
+
+/* Class = "UILabel"; text = "ZIELE"; ObjectID = "Qn3-T2-zUG"; */
+"Qn3-T2-zUG.text" = "ZIELE";
+
+/* Class = "UILabel"; text = "Häufigkeit von Lücken"; ObjectID = "RzF-v6-rwM"; */
+"RzF-v6-rwM.text" = "Häufigkeit von Lücken";
+
+/* Class = "UILabel"; text = "Label dfdf"; ObjectID = "Swg-Sz-BGC"; */
+"Swg-Sz-BGC.text" = "Label dfdf";
+
+/* Class = "UILabel"; text = "Dieses Thema wurde erfolgreich zu deinen “Zielen” hinzufügt"; ObjectID = "TZk-4e-5EM"; */
+"TZk-4e-5EM.text" = "Dieses Thema wurde erfolgreich zu deinen “Zielen” hinzufügt";
+
+/* Class = "UILabel"; text = "Wort"; ObjectID = "UI0-AG-swz"; */
+"UI0-AG-swz.text" = "Wort";
+
+/* Class = "UILabel"; text = "Wörterbuch"; ObjectID = "UcK-ZB-fwr"; */
+"UcK-ZB-fwr.text" = "Wörterbuch";
+
+/* Class = "UIButton"; normalTitle = "BBBBB"; ObjectID = "VaF-MC-VvN"; */
+"VaF-MC-VvN.normalTitle" = "Nutzungsbedingungen";
+
+/* Class = "UIButton"; normalTitle = "AUS DEM ACCOUNT AUSLOGGEN"; ObjectID = "WJQ-ud-dxQ"; */
+"WJQ-ud-dxQ.normalTitle" = "AUS DEM ACCOUNT AUSLOGGEN";
+
+/* Class = "UITextField"; placeholder = "Deine E-Mail"; ObjectID = "Xaz-nj-0fw"; */
+"Xaz-nj-0fw.placeholder" = "Deine E-Mail";
+
+/* Class = "UIButton"; normalTitle = "C-Test Generator"; ObjectID = "Zgv-QL-fjk"; */
+"Zgv-QL-fjk.normalTitle" = "C-Test Generator";
+
+/* Class = "UIButton"; normalTitle = "TEST GENERIEREN"; ObjectID = "ZrO-Aw-RyZ"; */
+"ZrO-Aw-RyZ.normalTitle" = "TEST GENERIEREN";
+
+/* Class = "UITextField"; placeholder = "Gib das gesuchte Wort ein..."; ObjectID = "Zuw-6h-6yZ"; */
+"Zuw-6h-6yZ.placeholder" = "Gib das gesuchte Wort ein...";
+
+/* Class = "UIButton"; normalTitle = "Cloze-Test"; ObjectID = "a31-bc-6UH"; */
+"a31-bc-6UH.normalTitle" = "Cloze-Test";
+
+/* Class = "UILabel"; text = "und"; ObjectID = "abv-j3-aCD"; */
+"abv-j3-aCD.text" = "und";
+
+/* Class = "UIButton"; normalTitle = "3"; ObjectID = "afb-qi-gzF"; */
+"afb-qi-gzF.normalTitle" = "3";
+
+/* Class = "UIButton"; normalTitle = "Übersetzung hinzufügen..."; ObjectID = "cSd-jl-vni"; */
+"cSd-jl-vni.normalTitle" = "Übersetzung hinzufügen...";
+
+/* Class = "UIButton"; normalTitle = "REGISTRIEREN"; ObjectID = "duZ-yc-sic"; */
+"duZ-yc-sic.normalTitle" = "REGISTRIEREN";
+
+/* Class = "UIButton"; normalTitle = "5"; ObjectID = "eHs-0p-lsb"; */
+"eHs-0p-lsb.normalTitle" = "5";
+
+/* Class = "UIButton"; normalTitle = "Textsuche"; ObjectID = "ej8-vH-goI"; */
+"ej8-vH-goI.normalTitle" = "Textsuche";
+
+/* Class = "UIButton"; normalTitle = "WEITER"; ObjectID = "fDI-gH-gKA"; */
+"fDI-gH-gKA.normalTitle" = "KAUFEN";
+
+/* Class = "UILabel"; text = "FÄCHER"; ObjectID = "fcE-7D-2Jd"; */
+"fcE-7D-2Jd.text" = "FÄCHER";
+
+/* Class = "UILabel"; text = "Varianten"; ObjectID = "fdM-Zz-lXj"; */
+"fdM-Zz-lXj.text" = "Varianten";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "fdq-TR-JGX"; */
+"fdq-TR-JGX.text" = "Label";
+
+/* Class = "UILabel"; text = "Подписка на 1 год"; ObjectID = "fmy-ED-9Ov"; */
+"fmy-ED-9Ov.text" = "1 Jahr Abo";
+
+/* Class = "UILabel"; text = "Texttyp"; ObjectID = "gso-Zu-95a"; */
+"gso-Zu-95a.text" = "Texttyp";
+
+/* Class = "UILabel"; text = "Name des Studienkollegs"; ObjectID = "i3Q-E8-1j7"; */
+"i3Q-E8-1j7.text" = "Name des Studienkollegs";
+
+/* Class = "UILabel"; text = "Meine Studienkollegs"; ObjectID = "i8g-JA-gLq"; */
+"i8g-JA-gLq.text" = "Meine Studienkollegs";
+
+/* Class = "UIButton"; normalTitle = "Weiter"; ObjectID = "iKQ-PA-XyB"; */
+"iKQ-PA-XyB.normalTitle" = "Weiter";
+
+/* Class = "UILabel"; text = "Eingabe"; ObjectID = "jEK-wb-fIv"; */
+"jEK-wb-fIv.text" = "Eingabe";
+
+/* Class = "UIButton"; normalTitle = "LÖSCHEN"; ObjectID = "jXT-P6-5UT"; */
+"jXT-P6-5UT.normalTitle" = "LÖSCHEN";
+
+/* Class = "UIButton"; normalTitle = "ОК"; ObjectID = "k59-ne-2f7"; */
+"k59-ne-2f7.normalTitle" = "ОК";
+
+/* Class = "UILabel"; text = "Link Description"; ObjectID = "k6J-s2-UAC"; */
+"k6J-s2-UAC.text" = "Link Description";
+
+/* Class = "UILabel"; text = "0,0"; ObjectID = "krl-8U-ns0"; */
+"krl-8U-ns0.text" = "0,0";
+
+/* Class = "UIButton"; normalTitle = "5"; ObjectID = "lsX-Re-SDe"; */
+"lsX-Re-SDe.normalTitle" = "5";
+
+/* Class = "UILabel"; text = "Account"; ObjectID = "m4r-BP-xmp"; */
+"m4r-BP-xmp.text" = "Account";
+
+/* Class = "UILabel"; text = "Registrierung"; ObjectID = "m9x-EB-6C2"; */
+"m9x-EB-6C2.text" = "Registrierung";
+
+/* Class = "UIButton"; normalTitle = "ABBRECHEN"; ObjectID = "muU-wg-IaY"; */
+"muU-wg-IaY.normalTitle" = "ABBRECHEN";
+
+/* Class = "UIButton"; normalTitle = "Nutzungsvereinbarung"; ObjectID = "nsw-ri-OOR"; */
+"nsw-ri-OOR.normalTitle" = "Nutzungsvereinbarung";
+
+/* Class = "UILabel"; text = "1"; ObjectID = "ntv-1w-DZs"; */
+"ntv-1w-DZs.text" = "1";
+
+/* Class = "UIButton"; normalTitle = "Zurück zu den Themen"; ObjectID = "oa6-FJ-Cpt"; */
+"oa6-FJ-Cpt.normalTitle" = "Zurück zu den Themen";
+
+/* Class = "UILabel"; text = "Um mit der Vorbereitung anzufangen, wähle bitte die gewünschten Studienkollegs und Kurse."; ObjectID = "ofP-uj-qb8"; */
+"ofP-uj-qb8.text" = "Um mit der Vorbereitung anzufangen, wähle bitte die gewünschten Studienkollegs und Kurse.";
+
+/* Class = "UILabel"; text = " Gesamtpreis"; ObjectID = "ozP-6s-BPM"; */
+"ozP-6s-BPM.text" = " Gesamtpreis";
+
+/* Class = "UIButton"; normalTitle = "6"; ObjectID = "pIS-ma-9aR"; */
+"pIS-ma-9aR.normalTitle" = "6";
+
+/* Class = "UIButton"; normalTitle = "Nach prüfungsähnlichen Aufgaben"; ObjectID = "pQm-bO-7xc"; */
+"pQm-bO-7xc.normalTitle" = " Nach prüfungsähnlichen Aufgaben";
+
+/* Class = "UIButton"; normalTitle = "2"; ObjectID = "piO-d9-68g"; */
+"piO-d9-68g.normalTitle" = "2";
+
+/* Class = "UIButton"; normalTitle = "Info"; ObjectID = "qDw-2e-ijU"; */
+"qDw-2e-ijU.normalTitle" = "Info";
+
+/* Class = "UILabel"; text = "№ 1"; ObjectID = "r6n-el-9YC"; */
+"r6n-el-9YC.text" = "№ 1";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "rDG-0G-PCj"; */
+"rDG-0G-PCj.text" = "Label";
+
+/* Class = "UILabel"; text = " Gesamtpreis"; ObjectID = "rYJ-Qq-EZ1"; */
+"rYJ-Qq-EZ1.text" = " Gesamtpreis";
+
+/* Class = "UIButton"; normalTitle = "7"; ObjectID = "sXW-cj-Zf7"; */
+"sXW-cj-Zf7.normalTitle" = "7";
+
+/* Class = "UILabel"; text = "Eingabe des Passworts fürs Einloggen mit der E-Mail"; ObjectID = "sf9-7Y-VoH"; */
+"sf9-7Y-VoH.text" = "Eingabe des Passworts fürs Einloggen mit der E-Mail ";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "tBY-Fb-w0i"; */
+"tBY-Fb-w0i.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "Zur Auswahl von Studienkollegs"; ObjectID = "tpd-qA-pgF"; */
+"tpd-qA-pgF.normalTitle" = "Zur Auswahl von Studienkollegs";
+
+/* Class = "UITextField"; placeholder = "Passwort"; ObjectID = "u3d-Uy-m8h"; */
+"u3d-Uy-m8h.placeholder" = "Passwort";
+
+/* Class = "UIButton"; normalTitle = "Passwort vergessen?"; ObjectID = "uNz-5b-ubv"; */
+"uNz-5b-ubv.normalTitle" = "Passwort vergessen?";
+
+/* Class = "UIButton"; normalTitle = "Texte von Lingua"; ObjectID = "uVa-bb-RAj"; */
+"uVa-bb-RAj.normalTitle" = "Texte von Lingua";
+
+/* Class = "UIButton"; normalTitle = "WEITER"; ObjectID = "vGX-6r-1QI"; */
+"vGX-6r-1QI.normalTitle" = "KAUFEN";
+
+/* Class = "UIButton"; normalTitle = "LÖSCHEN"; ObjectID = "vqE-PQ-aSH"; */
+"vqE-PQ-aSH.normalTitle" = "LÖSCHEN";
+
+/* Class = "UIButton"; normalTitle = "Nach gelösten"; ObjectID = "we1-iX-ppR"; */
+"we1-iX-ppR.normalTitle" = "Nach gelösten";
+
+/* Class = "UIButton"; normalTitle = "C-Test"; ObjectID = "wkq-gx-1B1"; */
+"wkq-gx-1B1.normalTitle" = "C-Test";
+
+/* Class = "UIButton"; normalTitle = "Aufgaben"; ObjectID = "x9k-0I-ztu"; */
+"x9k-0I-ztu.normalTitle" = "Aufgaben";
+
+/* Class = "UIButton"; normalTitle = "ABBRECHEN"; ObjectID = "xEC-yv-bnJ"; */
+"xEC-yv-bnJ.normalTitle" = "ABBRECHEN";
+
+/* Class = "UITextField"; placeholder = "Gib die fehlenden Symbole ein..."; ObjectID = "y3O-eZ-p5F"; */
+"y3O-eZ-p5F.placeholder" = "Gib die fehlenden Symbole ein...";
+
+/* Class = "UIButton"; normalTitle = "4"; ObjectID = "yTG-XW-TWi"; */
+"yTG-XW-TWi.normalTitle" = "4";
+
+/* Class = "UIButton"; normalTitle = "Aufgaben"; ObjectID = "jYG-zV-rEj"; */
+"jYG-zV-rEj.normalTitle" = "Aufgaben";
+
+/* Class = "UIButton"; normalTitle = "Info"; ObjectID = "Mht-wx-foN"; */
+"Mht-wx-foN.normalTitle" = "Info";
+
+/* Class = "UIButton"; normalTitle = "Materialien"; ObjectID = "wOI-XF-Obf"; */
+"wOI-XF-Obf.normalTitle" = "Materialien";
