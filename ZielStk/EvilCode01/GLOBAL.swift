@@ -10,7 +10,7 @@ import UIKit
 
 func topController() -> UIViewController? {
     
-    if var topController = UIApplication.shared.windows.first(where: {$0.isKeyWindow})?.rootViewController {
+    if var topController = UIApplication.shared.activeKeyWindow?.rootViewController {
         
         while let presentedViewController = topController.presentedViewController {
             topController = presentedViewController

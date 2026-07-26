@@ -24,7 +24,8 @@ extension PreloaderOpennerProtocol {
         
         let activityIndicator = UIActivityIndicatorView(frame: CGRect(x: 0, y: 0, width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height))
         activityIndicator.center = self.view.center
-        activityIndicator.style = .whiteLarge
+        activityIndicator.style = .large
+        activityIndicator.color = .white
         activityIndicator.startAnimating()
         
         self.view.isUserInteractionEnabled = false

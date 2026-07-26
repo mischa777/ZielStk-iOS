@@ -1,4 +1,5 @@
 platform :ios, '15.0'
+inhibit_all_warnings!
 
 target 'ZielStk' do
   use_frameworks!
@@ -28,6 +29,18 @@ post_install do |installer|
     project.targets.each do |target|
       target.build_configurations.each do |config|
         config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '15.0'
+
+        other_linker_flags = Array(config.build_settings['OTHER_LDFLAGS'] || '$(inherited)')
+        unless other_linker_flags.include?('-Wl,-no_warn_duplicate_libraries')
+          other_linker_flags << '-Wl,-no_warn_duplicate_libraries'
+        end
+        config.build_settings['OTHER_LDFLAGS'] = other_linker_flags
+      end
+
+      target.shell_script_build_phases.each do |phase|
+        if phase.name == 'Create Symlinks to Header Folders'
+          phase.always_out_of_date = '1'
+        end
       end
     end
   end

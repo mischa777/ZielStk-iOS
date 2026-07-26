@@ -11,9 +11,9 @@ import FirebaseAuth
 import FirebaseFirestore
 
 let db = Firestore.firestore()
-let settings = db.settings
 func setup_FirestoreDatabase() {
-    settings.isPersistenceEnabled = false
+    let settings = db.settings
+    settings.cacheSettings = MemoryCacheSettings()
     db.settings = settings
 }
 

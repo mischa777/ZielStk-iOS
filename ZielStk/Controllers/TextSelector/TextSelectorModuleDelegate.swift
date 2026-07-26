@@ -4,6 +4,6 @@
 
 import Foundation
 
-protocol TextSelectorModuleDelegate: class {
+protocol TextSelectorModuleDelegate: AnyObject {
     func setNewText(text: String)
 }
