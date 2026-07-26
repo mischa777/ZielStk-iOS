@@ -5,7 +5,6 @@ target 'ZielStk' do
 
   pod 'FBSDKCoreKit', '~> 18.1'
   pod 'FBSDKLoginKit', '~> 18.1'
-  pod 'FBSDKMarketingKit', '~> 18.1'
   pod 'GoogleSignIn', '~> 9.2'
   pod 'AppsFlyerFramework', '~> 7.0'
 

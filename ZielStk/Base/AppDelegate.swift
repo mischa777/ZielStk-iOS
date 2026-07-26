@@ -89,7 +89,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
 
     func applicationDidBecomeActive(_ application: UIApplication) {
-        AppEvents.activateApp()
+        AppEvents.shared.activateApp()
         if let deutchCompilerVC = UIApplication.shared.visibleViewController as? DeutchCompilerVC {
             deutchCompilerVC.readPostedText()
         }

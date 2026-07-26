@@ -187,8 +187,11 @@ final class LoginVM: LoginVMProtocol {
     }
     
     func loginWithApple(idToken: String, rawNonce: String) {
-        let providerId = "apple.com"
-        let credential = OAuthProvider.credential(withProviderID: providerId, idToken: idToken, rawNonce: rawNonce)
+        let credential = OAuthProvider.appleCredential(
+            withIDToken: idToken,
+            rawNonce: rawNonce,
+            fullName: nil
+        )
         Auth.auth().signIn(with: credential) { (authResult, error) in
             if error != nil {
                 print(error!)

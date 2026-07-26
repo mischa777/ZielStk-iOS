@@ -173,8 +173,11 @@ struct LogoutVM: LogoutVMProtocol {
     
     func loginWithApple(idToken: String, rawNonce: String) {
         if let user = Auth.auth().currentUser {
-            let providerId = "apple.com"
-            let credential = OAuthProvider.credential(withProviderID: providerId, idToken: idToken, rawNonce: rawNonce)
+            let credential = OAuthProvider.appleCredential(
+                withIDToken: idToken,
+                rawNonce: rawNonce,
+                fullName: nil
+            )
             user.link(with: credential, completion: { authResult, error in
                 if error != nil {
                     self.onLinkError?()

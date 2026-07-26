@@ -290,13 +290,13 @@ final class ShopVM: ShopVMProtocol {
             "Details" : priceString as NSObject
         ])
         
-        let parameters = [
-            AppEvents.ParameterName("amount").rawValue: NSNumber(value: totalPrice),
-            AppEvents.ParameterName("currency").rawValue: getLocalizedCurrency(),
-            AppEvents.ParameterName("shop").rawValue: placeOfPurchase
-        ] as [String : Any]
+        let parameters: [AppEvents.ParameterName: Any] = [
+            AppEvents.ParameterName("amount"): NSNumber(value: totalPrice),
+            AppEvents.ParameterName("currency"): getLocalizedCurrency(),
+            AppEvents.ParameterName("shop"): placeOfPurchase
+        ]
         
-        AppEvents.logEvent(.init("event_click_go_to_shop"), parameters: parameters)
+        AppEvents.shared.logEvent(.init("event_click_go_to_shop"), parameters: parameters)
     }
     
     func getLocalizedCurrency() -> String {
