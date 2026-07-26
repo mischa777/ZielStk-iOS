@@ -71,11 +71,13 @@ class Rate: NSObject {
         let yes = UIAlertAction(title: NSLocalizedString("Rate_Yes", comment: ""), style: .default) { _ in
             
             Rate.appreciated = true
-            guard let windowScene = UIApplication.shared.activeKeyWindow?.windowScene else { return }
-            if #available(iOS 18.0, *) {
-                AppStore.requestReview(in: windowScene)
-            } else {
-                SKStoreReviewController.requestReview(in: windowScene)
+            Task { @MainActor in
+                guard let windowScene = UIApplication.shared.activeKeyWindow?.windowScene else { return }
+                if #available(iOS 18.0, *) {
+                    AppStore.requestReview(in: windowScene)
+                } else {
+                    SKStoreReviewController.requestReview(in: windowScene)
+                }
             }
         }
         let no = UIAlertAction(title: NSLocalizedString("Rate_No", comment: ""), style: .default) { _ in
