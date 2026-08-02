@@ -9,7 +9,6 @@
 import UIKit
 import FirebaseAuth
 import GoogleSignIn
-import FBSDKLoginKit
 
 //MARK: -protocol
 protocol LogoutVMProtocol {
@@ -23,7 +22,6 @@ protocol LogoutVMProtocol {
     
     func logoutUser()
     func linkEmailWithPass(password: String)
-    func loginWithFB(parentController: UIViewController)
     func loginWithGoogle(idToken: String, accessToken: String)
     func getRandomNonceString(length: Int) -> String
     func loginWithApple(idToken: String, rawNonce: String)
@@ -74,8 +72,6 @@ struct LogoutVM: LogoutVMProtocol {
     func logoutUser() {
         do {
             GIDSignIn.sharedInstance.signOut()
-            let fbLoginManager = LoginManager()
-            fbLoginManager.logOut()
             try Auth.auth().signOut()
         } catch let error {
             print("Error in signout \(error.localizedDescription)")
@@ -86,36 +82,6 @@ struct LogoutVM: LogoutVMProtocol {
         if let email = Auth.auth().currentUser?.email {
             let emailCredential = EmailAuthProvider.credential(withEmail: email, password: password)
             Auth.auth().currentUser!.link(with: emailCredential, completion: { authResult, error in
-                if error != nil {
-                    self.onLinkError?()
-                } else {
-                    self.onLinkSuccess?()
-                }
-            })
-        } else {
-            onLinkError?()
-        }
-    }
-    
-    func loginWithFB(parentController: UIViewController) {
-        let fbLoginManager = LoginManager()
-        fbLoginManager.logIn(permissions: ["email", "public_profile"], from: parentController, handler: {(result, error) in
-            if error != nil {
-                self.onLinkError?()
-            } else {
-                if (result?.isCancelled)! {
-                    self.onLinkError?()
-                } else {
-                    self.setFbToFirebase()
-                }
-            }
-        })
-    }
-    
-    private func setFbToFirebase() {
-        if let user = Auth.auth().currentUser {
-            let fbCredentials = FacebookAuthProvider.credential(withAccessToken: AccessToken.current!.tokenString)
-            user.link(with: fbCredentials, completion: { authResult, error in
                 if error != nil {
                     self.onLinkError?()
                 } else {

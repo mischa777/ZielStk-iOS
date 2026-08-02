@@ -82,11 +82,6 @@ class LoginVC: UIViewController, PreloaderOpennerProtocol, AlertOpennerProtocol 
         }
     }
     
-    @IBAction func onFBTap(_ sender: Any) {
-        showPreloader()
-        viewModel.loginWithFB(parentController: self)
-    }
-    
     @IBAction func onAppleTap(_ sender: Any) {
         if #available(iOS 13, *) {
             showPreloader()

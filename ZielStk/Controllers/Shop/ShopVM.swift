@@ -7,7 +7,6 @@ import CoreData
 import FirebaseFirestore
 import FirebaseAuth
 import FirebaseAnalytics
-import FBSDKCoreKit
 
 //MARK: - Shop view model
 protocol ShopVMProtocol {
@@ -289,14 +288,6 @@ final class ShopVM: ShopVMProtocol {
             "Id" : 100 as NSObject,
             "Details" : priceString as NSObject
         ])
-        
-        let parameters: [AppEvents.ParameterName: Any] = [
-            AppEvents.ParameterName("amount"): NSNumber(value: totalPrice),
-            AppEvents.ParameterName("currency"): getLocalizedCurrency(),
-            AppEvents.ParameterName("shop"): placeOfPurchase
-        ]
-        
-        AppEvents.shared.logEvent(.init("event_click_go_to_shop"), parameters: parameters)
     }
     
     func getLocalizedCurrency() -> String {
