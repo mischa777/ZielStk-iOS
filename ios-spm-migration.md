@@ -10,7 +10,6 @@
 - CocoaPods dependency constraints moved to current 2025-2026 release lines:
   - `Firebase*` `~> 12.15`
   - `GoogleSignIn` `~> 9.2`
-  - `FBSDK*` `~> 18.1`
   - `AppsFlyerFramework` `~> 7.0`
   - `SDWebImage` `~> 5.21`
 
@@ -26,7 +25,7 @@ pod update
 
 Then open `ZielStk.xcworkspace`, clean the build folder, and build the `ZielStk`
 scheme. Do not manually edit `Podfile.lock`; let CocoaPods resolve transitive
-Firebase, Google, Facebook, AppsFlyer, and SDWebImage dependencies.
+Firebase, Google, AppsFlyer, and SDWebImage dependencies.
 
 ## Recommended next package moves
 
@@ -43,9 +42,6 @@ Firebase, Google, Facebook, AppsFlyer, and SDWebImage dependencies.
      - `FirebaseRemoteConfig`
      - `FirebaseStorage`
 3. Keep these on CocoaPods for the next pass unless Xcode package validation is available
-   - `FBSDKCoreKit`
-   - `FBSDKLoginKit`
-   - `FBSDKMarketingKit`
    - `AppsFlyerFramework`
    - `SDWebImage`
 

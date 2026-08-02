@@ -20,7 +20,6 @@
 "RemoveString" = "Löschen";
 "NoteString" = "Anmerkung";
 "GoogleErrorMessage" = "Das Einloggen mit Google-Account hat nicht geklappt. Vielleicht wird diese E-Mail bereits genutzt. Versuche eine andere Möglichkeit zum Einloggen.";
-"FBErrorMessage" = "Das Einloggen mit Facebook-Account hat nicht geklappt. Vielleicht wird diese E-Mail bereits genutzt. Versuche eine andere Möglichkeit zum Einloggen.";
 "CartErrorMessage" = "Es hat nicht geklappt, deine Auswahl aus dem Shop zu speichern.";
 "NoPermissionsWarning" = "Der Zugang zu diesem Thema wurde nicht gekauft. Du kannst den Zugang für 1 Jahr in unserem Shop bekommen.";
 "ToShopBtn" = "Zum Shop";

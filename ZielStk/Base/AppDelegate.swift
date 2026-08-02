@@ -11,7 +11,6 @@ import FirebaseAuth
 import FirebaseCore
 import FirebaseMessaging
 import GoogleSignIn
-import FBSDKCoreKit
 import UserNotifications
 
 import AppTrackingTransparency
@@ -89,7 +88,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
 
     func applicationDidBecomeActive(_ application: UIApplication) {
-        AppEvents.shared.activateApp()
         if let deutchCompilerVC = UIApplication.shared.visibleViewController as? DeutchCompilerVC {
             deutchCompilerVC.readPostedText()
         }
@@ -105,9 +103,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         open url: URL,
         options: [UIApplication.OpenURLOptionsKey : Any] = [:]
     ) -> Bool {
-        if ApplicationDelegate.shared.application(application, open: url, options: options) {
-            return true
-        }
         return GIDSignIn.sharedInstance.handle(url)
     }
 }

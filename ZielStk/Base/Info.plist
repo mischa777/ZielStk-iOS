@@ -28,32 +28,13 @@
 				<string>com.googleusercontent.apps.96326004703-o2hefr4pv8v9csnnks1mnmn4nd3num2u</string>
 			</array>
 		</dict>
-		<dict>
-			<key>CFBundleURLSchemes</key>
-			<array>
-				<string>fb1178024329046801</string>
-			</array>
-		</dict>
 	</array>
 	<key>CFBundleVersion</key>
 	<string>$(CURRENT_PROJECT_VERSION)</string>
-	<key>FacebookAppID</key>
-	<string>1178024329046801</string>
-	<key>FacebookCodelessDebugLogEnabled</key>
-	<true/>
-	<key>FacebookDisplayName</key>
-	<string>ZielStudienkolleg</string>
 	<key>FirebaseAppDelegateProxyEnabled</key>
 	<false/>
 	<key>GIDClientID</key>
 	<string>96326004703-o2hefr4pv8v9csnnks1mnmn4nd3num2u.apps.googleusercontent.com</string>
-	<key>LSApplicationQueriesSchemes</key>
-	<array>
-		<string>fbapi</string>
-		<string>fb-messenger-share-api</string>
-		<string>fbauth2</string>
-		<string>fbshareextension</string>
-	</array>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>NSAdvertisingAttributionReportEndpoint</key>

@@ -192,17 +192,6 @@
                                                     <action selector="onGoogleTap:" destination="oA7-AS-XC2" eventType="touchUpInside" id="gIv-6d-v9m"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QfH-E4-Jqf" userLabel="FBBtn">
-                                                <rect key="frame" x="165" y="317" width="34" height="34"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="height" constant="34" id="jyk-pL-73b"/>
-                                                    <constraint firstAttribute="width" constant="34" id="nI7-5Y-zGN"/>
-                                                </constraints>
-                                                <state key="normal" image="FBIcon"/>
-                                                <connections>
-                                                    <action selector="onFBTap:" destination="oA7-AS-XC2" eventType="touchUpInside" id="DcE-ZJ-gmu"/>
-                                                </connections>
-                                            </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BhE-4s-Guv" userLabel="AppleBtn">
                                                 <rect key="frame" x="205" y="317" width="34" height="34"/>
                                                 <constraints>
@@ -226,12 +215,11 @@
                                             <constraint firstAttribute="trailing" secondItem="9qQ-r3-dkl" secondAttribute="trailing" id="B8l-Yd-DAu"/>
                                             <constraint firstItem="9qQ-r3-dkl" firstAttribute="leading" secondItem="DyS-Of-YcV" secondAttribute="leading" id="DGj-cc-iX8"/>
                                             <constraint firstItem="KHN-1X-QXX" firstAttribute="top" secondItem="IkE-Tq-uUk" secondAttribute="bottom" constant="10" id="JCO-YJ-5yL"/>
-                                            <constraint firstItem="BhE-4s-Guv" firstAttribute="centerX" secondItem="DyS-Of-YcV" secondAttribute="centerX" constant="40" id="QHy-rq-vXz"/>
-                                            <constraint firstItem="BhE-4s-Guv" firstAttribute="centerY" secondItem="QfH-E4-Jqf" secondAttribute="centerY" id="T58-We-Ksn"/>
+                                            <constraint firstItem="BhE-4s-Guv" firstAttribute="centerX" secondItem="DyS-Of-YcV" secondAttribute="centerX" constant="22" id="QHy-rq-vXz"/>
+                                            <constraint firstItem="BhE-4s-Guv" firstAttribute="centerY" secondItem="vkr-X6-HwF" secondAttribute="centerY" id="T58-We-Ksn"/>
                                             <constraint firstItem="9qQ-r3-dkl" firstAttribute="top" secondItem="DyS-Of-YcV" secondAttribute="top" id="T6A-2j-Krg"/>
-                                            <constraint firstItem="QfH-E4-Jqf" firstAttribute="top" secondItem="ccF-2m-AO9" secondAttribute="bottom" constant="10" id="Wy2-bh-orn"/>
                                             <constraint firstItem="Xaz-nj-0fw" firstAttribute="leading" secondItem="DyS-Of-YcV" secondAttribute="leading" constant="25" id="YE2-1j-dAS"/>
-                                            <constraint firstItem="vkr-X6-HwF" firstAttribute="centerX" secondItem="DyS-Of-YcV" secondAttribute="centerX" constant="-40" id="aqB-gL-z5b"/>
+                                            <constraint firstItem="vkr-X6-HwF" firstAttribute="centerX" secondItem="DyS-Of-YcV" secondAttribute="centerX" constant="-22" id="aqB-gL-z5b"/>
                                             <constraint firstItem="62L-D0-lgG" firstAttribute="top" secondItem="Xaz-nj-0fw" secondAttribute="bottom" constant="10" id="ezp-Qd-ZbS"/>
                                             <constraint firstItem="IkE-Tq-uUk" firstAttribute="top" secondItem="62L-D0-lgG" secondAttribute="bottom" constant="25" id="fXe-f7-xn2"/>
                                             <constraint firstAttribute="height" constant="360" id="gOY-3Z-IjF"/>
@@ -243,7 +231,6 @@
                                     </view>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstItem="QfH-E4-Jqf" firstAttribute="centerX" secondItem="rZ7-Sp-kyo" secondAttribute="centerX" id="7dP-l8-O5O"/>
                                     <constraint firstAttribute="trailing" secondItem="DyS-Of-YcV" secondAttribute="trailing" id="KH7-VH-nMs"/>
                                     <constraint firstAttribute="bottom" secondItem="DyS-Of-YcV" secondAttribute="bottom" id="Vlv-jx-Thq"/>
                                     <constraint firstItem="DyS-Of-YcV" firstAttribute="width" secondItem="rZ7-Sp-kyo" secondAttribute="width" id="c6i-f0-dCh"/>
@@ -1060,17 +1047,6 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6d9-ih-6km" userLabel="FBBtn">
-                                <rect key="frame" x="168" y="156" width="34" height="34"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="34" id="Y3a-jg-8I7"/>
-                                    <constraint firstAttribute="height" constant="34" id="kty-Ik-IDQ"/>
-                                </constraints>
-                                <state key="normal" image="FBIcon"/>
-                                <connections>
-                                    <action selector="onFbLinkTap:" destination="qWa-G9-B2O" eventType="touchUpInside" id="fog-JW-1ty"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C6q-6F-mbV" userLabel="GoogleBtn">
                                 <rect key="frame" x="212" y="156" width="34" height="34"/>
                                 <constraints>
@@ -1154,20 +1130,18 @@
                             <constraint firstItem="J3i-k3-vCY" firstAttribute="top" secondItem="iLs-lt-fUO" secondAttribute="bottom" constant="25" id="F3C-Jb-czf"/>
                             <constraint firstItem="8Fe-Do-7PO" firstAttribute="leading" secondItem="Mee-3g-Nca" secondAttribute="leading" constant="50" id="KfD-yo-A8M"/>
                             <constraint firstAttribute="trailing" secondItem="v97-Tb-NHl" secondAttribute="trailing" constant="25" id="L7k-zH-oxh"/>
-                            <constraint firstItem="6d9-ih-6km" firstAttribute="centerX" secondItem="Mee-3g-Nca" secondAttribute="centerX" constant="-22" id="Ngs-8A-Bxh"/>
+                            <constraint firstItem="C6q-6F-mbV" firstAttribute="centerX" secondItem="Mee-3g-Nca" secondAttribute="centerX" id="Ngs-8A-Bxh"/>
                             <constraint firstItem="iLs-lt-fUO" firstAttribute="trailing" secondItem="Mee-3g-Nca" secondAttribute="trailing" id="PCJ-Hb-MzK"/>
                             <constraint firstItem="gbG-LC-eUu" firstAttribute="centerX" secondItem="Mee-3g-Nca" secondAttribute="centerX" id="PHw-aZ-9wF"/>
                             <constraint firstItem="v97-Tb-NHl" firstAttribute="top" secondItem="gbG-LC-eUu" secondAttribute="bottom" constant="30" id="Q7j-hA-RAg"/>
                             <constraint firstAttribute="trailingMargin" secondItem="J3i-k3-vCY" secondAttribute="trailing" id="T4c-3U-eum"/>
                             <constraint firstItem="QrZ-8v-E9L" firstAttribute="top" secondItem="J3i-k3-vCY" secondAttribute="bottom" constant="15" id="ThB-re-f1j"/>
                             <constraint firstAttribute="trailing" secondItem="8Fe-Do-7PO" secondAttribute="trailing" constant="50" id="WVP-kM-xXf"/>
-                            <constraint firstItem="C6q-6F-mbV" firstAttribute="leading" secondItem="6d9-ih-6km" secondAttribute="trailing" constant="10" id="YDr-Cl-QEW"/>
+                            <constraint firstItem="C6q-6F-mbV" firstAttribute="leading" secondItem="QrZ-8v-E9L" secondAttribute="trailing" constant="15" id="YDr-Cl-QEW"/>
                             <constraint firstItem="C6q-6F-mbV" firstAttribute="top" secondItem="J3i-k3-vCY" secondAttribute="bottom" constant="15" id="bCy-Zj-q2c"/>
-                            <constraint firstItem="6d9-ih-6km" firstAttribute="leading" secondItem="QrZ-8v-E9L" secondAttribute="trailing" constant="15" id="eJj-7x-HEk"/>
                             <constraint firstItem="raD-Ga-6lt" firstAttribute="top" secondItem="WJQ-ud-dxQ" secondAttribute="bottom" constant="20" id="fz8-o4-3ah"/>
-                            <constraint firstItem="2MW-NS-KGF" firstAttribute="centerY" secondItem="6d9-ih-6km" secondAttribute="centerY" id="jX6-iA-ysP"/>
+                            <constraint firstItem="2MW-NS-KGF" firstAttribute="centerY" secondItem="C6q-6F-mbV" secondAttribute="centerY" id="jX6-iA-ysP"/>
                             <constraint firstItem="J3i-k3-vCY" firstAttribute="leading" secondItem="Mee-3g-Nca" secondAttribute="leadingMargin" id="myA-oz-06Y"/>
-                            <constraint firstItem="6d9-ih-6km" firstAttribute="top" secondItem="J3i-k3-vCY" secondAttribute="bottom" constant="15" id="ofb-BQ-f6R"/>
                             <constraint firstAttribute="trailing" secondItem="WJQ-ud-dxQ" secondAttribute="trailing" constant="50" id="pi0-dr-wNq"/>
                             <constraint firstItem="WJQ-ud-dxQ" firstAttribute="leading" secondItem="Mee-3g-Nca" secondAttribute="leading" constant="50" id="puZ-qX-wBK"/>
                             <constraint firstItem="2MW-NS-KGF" firstAttribute="leading" secondItem="C6q-6F-mbV" secondAttribute="trailing" constant="15" id="rbX-yc-2xT"/>
@@ -5103,7 +5077,6 @@
     </inferredMetricsTieBreakers>
     <resources>
         <image name="AppleIcon" width="34" height="34"/>
-        <image name="FBIcon" width="34" height="34"/>
         <image name="GoogleIcon" width="34" height="34"/>
         <image name="Image.book.fill" width="30" height="30"/>
         <image name="Image.cart.fill" width="30" height="30"/>

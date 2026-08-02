@@ -45,11 +45,6 @@ class LogoutVC: UIViewController, AlertOpennerProtocol, PreloaderOpennerProtocol
         performSegue(withIdentifier: Constants.Segues.PasswordWindowSegue, sender: nil)
     }
     
-    @IBAction func onFbLinkTap(_ sender: Any) {
-        showPreloader()
-        viewModel.loginWithFB(parentController: self)
-    }
-    
     @IBAction func onGoogleLinkTap(_ sender: Any) {
         GIDSignIn.sharedInstance.signIn(withPresenting: self) { [weak self] result, error in
             guard let self else { return }

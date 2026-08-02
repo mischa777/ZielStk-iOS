@@ -4,8 +4,6 @@ inhibit_all_warnings!
 target 'ZielStk' do
   use_frameworks!
 
-  pod 'FBSDKCoreKit', '~> 18.1'
-  pod 'FBSDKLoginKit', '~> 18.1'
   pod 'GoogleSignIn', '~> 9.2'
   pod 'AppsFlyerFramework', '~> 7.0'
 

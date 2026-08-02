@@ -10,7 +10,6 @@ import UIKit
 import Foundation
 import FirebaseAuth
 import GoogleSignIn
-import FBSDKLoginKit
 
 protocol LoginVMProtocol {
     var onError: ((String, String) -> ())? { get set }
@@ -20,7 +19,6 @@ protocol LoginVMProtocol {
     func rememberPassword(mailString: String?)
     func loginWith(mailString: String?, passwordString: String?)
     func loginWithGoogle(idToken: String, accessToken: String)
-    func loginWithFB(parentController: UIViewController)
     func setSignOut()
     func getRandomNonceString(length: Int) -> String
     func loginWithApple(idToken: String, rawNonce: String)
@@ -112,45 +110,9 @@ final class LoginVM: LoginVMProtocol {
         })
     }
     
-    func loginWithFB(parentController: UIViewController) {
-        let fbLoginManager = LoginManager()
-        fbLoginManager.logIn(permissions: ["email", "public_profile"], from: parentController, handler: {(result, error) in
-            if error != nil {
-                let title = NSLocalizedString("ErrorTitle", comment: "")
-                let message = NSLocalizedString("FBErrorMessage", comment: "")
-                self.onError?(title, message)
-            } else {
-                if (result?.isCancelled)! {
-                    let title = NSLocalizedString("ErrorTitle", comment: "")
-                    let message = NSLocalizedString("FBErrorMessage", comment: "")
-                    self.onError?(title, message)
-                } else {
-                    self.setFbToFirebase()
-                }
-            }
-        })
-    }
-    
-    private func setFbToFirebase() {
-        let credential = FacebookAuthProvider.credential(withAccessToken: AccessToken.current!.tokenString)
-        
-        Auth.auth().signIn(with: credential, completion: {(suthResult, error) in
-            if error != nil {
-                self.setSignOut()
-                let title = NSLocalizedString("ErrorTitle", comment: "")
-                let message = NSLocalizedString("FBErrorMessage", comment: "")
-                self.onError?(title, message)
-            } else {
-                self.onLoginSuccess?()
-            }
-        })
-    }
-    
     func setSignOut() {
         do {
             GIDSignIn.sharedInstance.signOut()
-            let fbLoginManager = LoginManager()
-            fbLoginManager.logOut()
             try Auth.auth().signOut()
         } catch let error {
             print("Error in signout \(error.localizedDescription)")
